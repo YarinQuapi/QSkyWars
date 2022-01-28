@@ -1,0 +1,16 @@
+name: QSkyWars
+version: '${project.version}'
+description: "An example minigame powered by Quapi's MinigameFramework"
+author: "Quapi"
+main: me.yarinlevi.qskywars.QSkyWars
+api-version: 1.17
+depend:
+  - WorldEdit
+
+commands:
+  arena:
+    permission: qskywars.admin.arena
+  game:
+    permission: qskywars.player.game
+  admin:
+    permission: qskywars.admin

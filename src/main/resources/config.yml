@@ -1,0 +1,8 @@
+# Config updated for version ${project.version}
+
+player:
+  kill_coin_gain: 10
+
+games:
+  start_percentage: 70
+  start_timer: 10
